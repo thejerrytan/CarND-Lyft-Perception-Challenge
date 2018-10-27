@@ -1,0 +1,22 @@
+name: keras-to-tf
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.6
+    - numpy
+    - matplotlib
+    - jupyter
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - eventlet
+    - flask-socketio
+    - pandas
+    - imageio=2.1.2
+    - pyqt=4.11.4
+    - pip:
+        - tensorflow==1.8
+        - keras==2.1.6
